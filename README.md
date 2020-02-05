@@ -27,7 +27,7 @@ Ribbon、Eureka、Hystrix、Zuul、Config等
 手动从maven添加spring 5.2.3
 
 ### spring的demo
-以sp4开头的module，如何挂镜像？
+以spring-idea-create开头的module，如何挂镜像？
 ### spring boot的demo
 以spt开头的module
 ### spring cloud的demo
