@@ -7,8 +7,13 @@
 - IDE为idea 2019.3 旗舰
 - jdk：1.8.241
 - maven：3.6.1
-- spring 5.2.3### maven的demo
+- spring 5.2.3
+### maven的demo
 以maven开头的module
+
+项目名：**项目maven-spring-demo1**
+手动从maven添加spring 5.2.3
+
 ### spring的demo
 以sp4开头的module
 ### spring boot的demo
