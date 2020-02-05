@@ -8,10 +8,22 @@
 - jdk：1.8.241
 - maven：3.6.1
 - spring 5.2.3
+
+学习路径
+- java语法
+- eclipse和idea
+- maven
+- spring
+- spring boot
+- spring cloud
+
+Ribbon、Eureka、Hystrix、Zuul、Config等
+- 其他：mybatis、mysql、redis
 ### maven的demo
 以maven开头的module
 
 项目名：**项目maven-spring-demo1**
+
 手动从maven添加spring 5.2.3
 
 ### spring的demo
