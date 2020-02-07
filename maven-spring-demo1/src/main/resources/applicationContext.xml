@@ -6,4 +6,25 @@
     <bean id="Dog" class="com.smock.maven.spring.Dog">
         <property name="name" value="默认狗名字1"></property>
     </bean>
+
+    <!-- 通过构造函数注入属性，不写index则默认按顺序 -->
+    <bean id="car1" class="com.smock.maven.spring.Car">
+        <constructor-arg value="奥迪" index="0" type="java.lang.String"></constructor-arg>
+        <constructor-arg value="50000" index="1" type="double"></constructor-arg>
+    </bean>
+
+    <!-- 通过构造函数注入属性，特殊字符，构造设置等 -->
+    <bean id="car2" class="com.smock.maven.spring.Car">
+        <constructor-arg index="0" type="java.lang.String">
+            <value><![CDATA[<B^MW>]]]></value>
+        </constructor-arg>
+        <constructor-arg index="1" type="int">
+            <value>220</value>
+        </constructor-arg>
+    </bean>
+
+    <bean class="com.smock.maven.spring.Person" id="person">
+        <property name="name" value="Tom"></property>
+        <property name="car" ref="car1"></property>
+    </bean>
 </beans>
