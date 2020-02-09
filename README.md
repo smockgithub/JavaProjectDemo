@@ -28,6 +28,7 @@ Ribbon、Eureka、Hystrix、Zuul、Config等
 
 ### spring的demo
 以spring-idea-create开头的module，如何挂镜像？
+DI和AOP相关的配置。
 ### spring boot的demo
 以spt开头的module
 ### spring cloud的demo
